@@ -1,24 +1,27 @@
-# README
+# Rails Messaging Service
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Feature
+- User can send message to another user
+- Users can list all messages in a conversation between them and another user.
+- Users can reply to a conversation they are involved with.
+- User can list all their conversations (if user A has been chatting with user C & D, the list for A will shows A-C & A-D)
+- Each conversation is accompanied by unread count.
+- Each conversation is accompanied by its last message
 
-Things you may want to cover:
+### install bundle
+```md
+bundle install
+```
+### Migration
+```md
+rails db:migrate
+```
+### Testing
+```md
+rspec
+```
+### Run this app
+```md
+rails s
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
