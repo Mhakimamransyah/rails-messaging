@@ -1,6 +1,13 @@
 # Rails Messaging Service
 Api service to serve messaging feature
 
+## Spesifications
+- Ruby 2.7
+- Rails 5.2.6
+- Rspec 3.10
+- Gem 3.1.2
+- Mysql
+
 ## ERD
 ![image](https://user-images.githubusercontent.com/9213955/147844350-6cadb576-86dd-4610-b289-c4b772211f52.png)
 
@@ -11,6 +18,7 @@ Api service to serve messaging feature
 - User can list all their conversations (if user A has been chatting with user C & D, the list for A will shows A-C & A-D)
 - Each conversation is accompanied by unread count.
 - Each conversation is accompanied by its last message
+- JWT Token authorization
 
 ## Postman
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.postman.co/run-collection/3de17b18d15309df5b61?action=collection%2Fimport)
